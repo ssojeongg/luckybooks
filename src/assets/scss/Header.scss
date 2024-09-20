@@ -1,0 +1,89 @@
+.wrap {
+  width: 100%;
+  padding-bottom: 50px;
+  .header_top {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    .logo {
+      width: 70px;
+      height: 70px;
+      a {
+        display: block;
+        text-align: center;
+        line-height: 1.5;
+        font-family: 'CHOGOONCHICKENSCRATCHV5';
+        font-size: 25px;
+        color: #887469;
+        &:first-child {
+          color: #1e5c1e;
+        }
+      }
+    }
+    input {
+      width: 400px;
+      height: 30px;
+      border: none;
+      padding-left: 5px;
+      outline: 1px solid #887469;
+      &:focus {
+        outline:none;
+        outline: 1px solid #1e5c1e;
+      }
+    }
+  }
+  .header_bottom {
+    nav {
+      width: 917px;
+      ul {
+        display: flex;
+        justify-content: right;
+        gap: 20px; 
+        li {
+          a {
+            display: block;
+            color: #887469;
+            &:hover {
+              color:#1e5c1e;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:767px) {
+  .wrap {
+    .header_top {
+      display: flex;
+      flex-direction: column;
+      .logo {
+        a {
+
+        }
+      }
+      input {
+
+      }
+      path {
+        display: none;
+      }
+    }
+    .header_bottom {
+      display: flex;
+      justify-content: center;
+      nav {
+        ul {
+          li {
+            a {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

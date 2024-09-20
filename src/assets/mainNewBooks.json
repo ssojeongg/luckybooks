@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "title" : "어느 하루 눈부시지 않은 날이 없었습니다",
+      "img" : "https://image.aladin.co.kr/product/34112/12/cover500/k662931384_1.jpg?RS=170",
+      "price" : "14,700원"
+    },
+    {
+      "title" : "탕비실",
+      "img" : "https://image.aladin.co.kr/product/34193/41/cover500/k602931315_1.jpg?RS=170",
+      "price" : "13,700원"
+    },
+    {
+      "title" : "너에게 들려주는 단단한 말",
+      "img" : "https://image.aladin.co.kr/product/34233/47/cover500/k212931234_2.jpg?RS=170",
+      "price" : "11,900원"
+    },
+    {
+      "title" : "도어 (리커버 특별판)",
+      "img" : "https://image.aladin.co.kr/product/32367/92/cover200/k572935476_1.jpg?RS=170",
+      "price" : "13,200원"
+    },
+    {
+      "title" : "빈방의 빛 : 시인이 말하는 호퍼 (리버커)",
+      "img" : "https://image.aladin.co.kr/product/31515/96/cover200/k292832532_1.jpg?RS=170",
+      "price" : "16,400원"
+    },
+    {
+      "title" : "방금 떠나온 세계 (2주년 기념 리커버)",
+      "img" : "https://image.aladin.co.kr/product/32697/5/cover200/k522936662_3.jpg?RS=170",
+      "price" : "11,300원"
+    },
+    {
+      "title" : "순도 100퍼센트의 휴식",
+      "img" : "https://image.aladin.co.kr/product/34368/67/cover200/k382932108_1.jpg?RS=170",
+      "price" : "15,500원"
+    }
+  ]
+}

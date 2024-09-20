@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title" : "빛과 멜로디",
+      "img" : "https://image.aladin.co.kr/product/34592/43/cover200/k402933577_1.jpg?RS=134",
+      "price" : "11,900원"
+    },
+    {
+      "title" : "이중 하나는 거짓말",
+      "img" : "https://image.aladin.co.kr/product/34474/76/cover200/k292932634_3.jpg?RS=170",
+      "price" : "10,300원"
+    },
+    {
+      "title" : "부모의 어휘력",
+      "img" : "https://image.aladin.co.kr/product/34112/12/cover500/k662931384_1.jpg?RS=170",
+      "price" : "13,200원"
+    },
+    {
+      "title" : "순도 100퍼센트의 휴식",
+      "img" : "https://image.aladin.co.kr/product/34368/67/cover200/k382932108_1.jpg?RS=170",
+      "price" : "15,500원"
+    }
+  ]
+}

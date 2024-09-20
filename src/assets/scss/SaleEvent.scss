@@ -1,0 +1,27 @@
+.wrap8 {
+  width: 100%;
+  .inner {
+    .sale_box {
+      padding-top: 100px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      .img_box {
+        width: 400px;
+        img {
+          width: 380px;
+          height: 380px;
+        }
+      }
+    } 
+  }
+}
+
+@media(max-width:767px) {
+  .wrap8 {
+    display: none;
+  }
+}

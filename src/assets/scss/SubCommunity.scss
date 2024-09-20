@@ -1,0 +1,172 @@
+.wrap7 {
+  width: 100%;
+  .text_box {
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    h2 {
+      &::after {
+        content: '>';
+        font-weight: normal;
+      }
+    }
+    .community {
+      display: block;
+      font-size: 16px;
+      text-decoration: underline;
+      text-underline-offset: 8px;
+      text-decoration-color: #887469;
+      text-decoration-thickness: 3px;
+    }
+  }
+  .img_box {
+    img {
+      width: 100%;
+    }
+  }
+  .button {
+    margin-top: 100px;
+    .btn {
+      display: flex;
+      width: 800px;
+      button {
+        background-color: #fff;
+        color: #000;
+        margin-right: 50px;
+        font-size: 16px;
+        width: 200px;
+        &:hover {
+          text-decoration: underline;
+          text-decoration-color:#887469;
+          text-underline-offset: 8px;
+          text-decoration-thickness: 3px;
+        }
+      }
+    }
+  }
+  .TabContent {
+    margin-top: 50px;
+    table {
+      width: 100%;
+      tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 10px;
+        &:hover {
+          cursor: pointer; 
+          background-color: #fffcf8;
+        }
+       /*  &:hover>td:first-child {
+          text-decoration: underline;
+          text-underline-offset: 8px;
+          text-decoration-thickness: 1px;
+          color: #828282;
+        } */
+        td {
+         margin: 10px 0;
+          font-size: 16px;
+        }
+        .date {
+          color: #ccc;
+        }
+      }
+    }
+  }
+  .log_box {
+    display: flex;
+    justify-content: right;
+    .logo {
+      width: 70px;
+      height: 70px;
+      a {
+        display: block;
+        text-align: center;
+        line-height: 1.5;
+        font-family: 'CHOGOONCHICKENSCRATCHV5';
+        font-size: 25px;
+        color: #887469;
+        &:first-child {
+          color: #1e5c1e;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .wrap7 {
+    .inner {
+      padding: 0 40px;
+      .text_box {
+    
+        h2 {
+          &::after {
+         
+           
+          }
+        }
+        .community {
+      
+        }
+      }
+    }
+    .img_box {
+      img {
+      
+      }
+    }
+      .button {
+        .inner {
+          display: flex;
+          
+          .btn {
+            display: flex;
+            flex-direction: column;
+            width: 150px;
+            button {
+              width: 150px;
+              height: 50px;
+              display: block;
+              margin-right: 0px;
+            }
+          }
+      .TabContent {
+        margin-top: 0;
+        table {
+          max-width: 300px;
+          tr {
+            margin-bottom: 0;
+            padding: 0;
+            &:hover {
+
+            }
+          /*  &:hover>td:first-child {
+              text-decoration: underline;
+              text-underline-offset: 8px;
+              text-decoration-thickness: 1px;
+              color: #828282;
+            } */
+
+            .date {
+
+            }
+          }
+        }
+      }
+    }
+  }
+    .log_box {
+
+      .logo {
+
+        a {
+
+          &:first-child {
+
+          }
+        }
+      }
+    }
+  }
+}

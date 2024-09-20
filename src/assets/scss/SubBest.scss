@@ -1,0 +1,152 @@
+.wrap10 {
+  .inner {
+    .text_box {
+      padding-bottom: 50px;
+      display: flex;
+      align-items: center;
+      h2 {
+        &::after {
+          content: '>';
+          font-weight: normal;
+        }
+      }
+      .best {
+        display: block;
+        font-size: 16px;
+        text-decoration: underline;
+        text-underline-offset: 8px;
+        text-decoration-color: #887469;
+        text-decoration-thickness: 3px;
+      }
+    }
+  }
+  .best_img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .hover {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: space-between;
+    .hover_box {
+      width: 200px;
+      height: 250px;
+      margin-top: 30px;
+      background-color: #887469;
+      position: relative;
+      cursor: pointer;
+    }
+    .hover_img {
+      position: absolute;
+      top: 5%;
+      left: 10%;
+      z-index: 3;
+      width: 80%;
+      height: 180px;
+      background-color: #fff;
+      img {
+        width: 160px;
+        height: 180px;
+      }
+    }
+    .hover_text {
+      background-color: #887469;
+      position: absolute;
+      bottom: 5px;
+      left: 18px;
+      line-height: 1.5;
+      color: #fff;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 160px;
+      h4 {
+        font-weight: normal;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    .btn {
+      display: flex;
+      width: 200px;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      bottom: -50px;
+      left: 0;
+      .cart {
+        width: 50%;
+        padding: 10px;
+        color: #887469;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #fff;
+        border: 1px solid #887469;
+      }
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .wrap10 {
+    .inner {
+      padding: 0 40px;
+      .text_box {
+
+        h2 {
+
+        }
+        .best {
+
+        }
+      }
+    }
+    .best_img {
+
+      img {
+
+      }
+    }
+    .hover {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      .hover_box {
+        max-width: 150px;
+      }
+      .hover_img {
+      
+        img {
+          max-width: 123px;
+        }
+      }
+      .hover_text {
+        max-width: 123px;
+        h4 {
+          
+        }
+        p {
+          
+        }
+      }
+      .btn {
+        display: flex;
+         justify-content: center;
+         align-items: center;
+        .cart {
+        }
+        svg {
+          display: none;
+        }
+      }
+    }
+  }
+}
