@@ -13,7 +13,7 @@ const SubNew = () => {
             <a className='new' href="javascript:void(0)">&nbsp;&nbsp;&nbsp;NEW&nbsp;&nbsp;&nbsp;</a>
             </div>         
           </div>
-      <a className='new_img' href="javascript:void(0)"><img src={`/public/sub_new.png`} alt='main'/></a>
+      <a className='new_img' href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sub_new.png`} alt='main'/></a>
         <div className="inner">
           <div className="hover">
               {books.items.map((data, index) => (

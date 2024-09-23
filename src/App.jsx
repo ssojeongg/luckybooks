@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <Header />
-        <main>
           <Routes>
             <Route path="/" element={<Section />} />
             <Route path="/SubAbout/*" element={<SubAbout />} />
@@ -20,9 +19,8 @@ function App() {
             <Route path="/SubBest/*" element={<SubBest />} />
             <Route path="/SubNew/*" element={<SubNew />} />
           </Routes>
-        </main>
-      <Footer />
       <TopButton />
+      <Footer />
     </Router>
   )
 }

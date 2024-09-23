@@ -102,7 +102,7 @@ useEffect(() => {
         </table>
       </div>
       <div className="community_img">
-        <a href="javascript:void(0)"><img src={`/public/community.jpeg`} alt="community" /></a>
+        <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/community.jpeg`} alt="community" /></a>
       </div>
         </div>
       </div>

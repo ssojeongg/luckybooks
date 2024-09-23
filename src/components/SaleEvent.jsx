@@ -14,22 +14,22 @@ const SaleEvent = () => {
         <div className="inner">
           <div className="sale_box">  
             <div className="img_box">
-              <a href="javascript:void(0)"><img src={`/public/sale1.jpg`} alt='sale1'/></a>
+              <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sale1.jpg`} alt='sale1'/></a>
             </div>
             <div className="img_box">
-              <a href="javascript:void(0)"><img src={`/public/sale2.jpg`} alt='sale2'/></a>
+              <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sale2.jpg`} alt='sale2'/></a>
             </div>
             <div className="img_box">
-              <a href="javascript:void(0)"><img src={`/public/sale3.jpg`} alt='sale3'/></a>
+              <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sale3.jpg`} alt='sale3'/></a>
             </div>
             <div className="img_box">
-              <a href="javascript:void(0)"><img src={`/public/sale4.jpg`} alt='sale4'/></a>
+              <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sale4.jpg`} alt='sale4'/></a>
           </div>
           <div className="img_box">
-              <a href="javascript:void(0)"><img src={`/public/sale5.jpg`} alt='sale5'/></a>
+              <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sale5.jpg`} alt='sale5'/></a>
           </div>
           <div className="img_box">
-              <a href="javascript:void(0)"><img src={`/public/sale6.jpg`} alt='sale6'/></a>
+              <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sale6.jpg`} alt='sale6'/></a>
           </div>
         </div>
       </div>

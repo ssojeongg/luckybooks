@@ -53,14 +53,14 @@
         
       }
       .img_box {
-        position: relative;
+        position: static;
         img {
           max-width: 400px;
           height: 350px;
         }
         .color_box {
           position: absolute;
-          bottom: -100px;
+          bottom: -50px;
           left: 100px;
           max-width: 200px;
           height: 200px;

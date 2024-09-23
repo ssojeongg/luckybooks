@@ -70,7 +70,7 @@ const SubCommunity = () => {
         </div>
         </div>
         <div className="img_box">
-        <a href="javascript:void(0)"><img src={`/public/sub_community.png`} alt='main'/></a>
+        <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sub_community.png`} alt='main'/></a>
         </div>
         <div className='button'>
           <div className="inner">

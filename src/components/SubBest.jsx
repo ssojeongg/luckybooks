@@ -13,7 +13,7 @@ const SubBest = () => {
             <a className='best' href="javascript:void(0)">&nbsp;&nbsp;&nbsp;BEST&nbsp;&nbsp;&nbsp;</a>
             </div>         
           </div>
-      <a className='best_img' href="javascript:void(0)"><img src={`/public/sub_best.jpeg`} alt='main'/></a>
+      <a className='best_img' href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/sub_best.jpeg`} alt='main'/></a>
         <div className="inner">
           <div className="hover">
               {books.items.map((data, index) => (

@@ -18,7 +18,7 @@ const MainAbout = () => {
           <Link to ="/SubAbout/*"><button>더 보기</button></Link>
         </div>
         <div className="img_box">
-          <a href="javascript:void(0)"><img src={`/public/about_main.jpg`} alt='main'/></a>
+          <a href="javascript:void(0)"><img src={import.meta.env.VITE_PUBLIC_URL + `/about_main.jpg`} alt='main'/></a>
           <div className="color_box">
           <h3>2024년 9월,<br /><span>'행운책방' </span>의 문을 엽니다.</h3>
           <a href="javascript:void(0)">

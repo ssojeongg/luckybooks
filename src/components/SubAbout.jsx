@@ -11,7 +11,7 @@ const SubAbout=() => {
         </div>
         </div>
         <div className="img_box">
-        <a href="javascript:void(0)"><img src={`/public/about_main.png`} alt='main'/></a>
+        <a href="javascript:void(0)"><img src={ import.meta.env.VITE_PUBLIC_URL + `/about_main.png`} alt='main'/></a>
         </div>
         <div className="logo_box">
           <div className="inner">
